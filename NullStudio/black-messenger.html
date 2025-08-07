@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Messenger - Secure Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">Loading Project...</div>
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Loading...</div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>NullStudio | BlackLAN</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="black-messenger.html" class="nav-link active">Black Messenger</a>
+                </li>
+                <li class="nav-item">
+                    <a href="discord-auth.html" class="nav-link">Discord Auth</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://discord.gg/aFvUxKejw4" class="nav-link active">Join Discord </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <div class="project-hero-content">
+                    <h1 class="project-title">Black Messenger</h1>
+                    <p class="project-subtitle">A secure messaging app I built under my NullStudio organization to learn about encryption and real-time communication</p>
+                    <div class="project-badges">
+                        <span class="badge">Secure</span>
+                        <span class="badge">Open Source</span>
+                        <span class="badge">Learning Project</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/NullStudio-dev/blacklan-messenger" target="_blank" class="btn btn-primary">View on GitHub</a>
+                        <a href="#features" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-overview">
+            <div class="container">
+                <h2 class="section-title">About This Project</h2>
+                <div class="overview-content">
+                    <div class="overview-text">
+                        <p>I created Black Messenger as a learning project to understand how secure messaging works. NullStudio is just the name I use for my GitHub organization - I thought it sounded cool when I came up with it!</p>
+                        <p>The app focuses on privacy and security while keeping things simple and easy to use. It's not meant to compete with big messaging apps - it's just my way of exploring these technologies and having fun with code.</p>
+                    </div>
+                    <div class="overview-stats">
+                        <div class="stat">
+                            <h3>End-to-End</h3>
+                            <p>Encrypted</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Real-time</h3>
+                            <p>Messages</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Cross-platform</h3>
+                            <p>Desktop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="project-features">
+            <div class="container">
+                <h2 class="section-title">What It Does</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔐</div>
+                        <h3>Secure Messaging</h3>
+                        <p>Messages are encrypted so only you and your friends can read them.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Real-time Chat</h3>
+                        <p>Messages appear instantly without any delays or refreshing.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📁</div>
+                        <h3>File Sharing</h3>
+                        <p>Share files and images securely with your contacts.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👥</div>
+                        <h3>Group Chats</h3>
+                        <p>Create group conversations with multiple people.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌙</div>
+                        <h3>Dark Theme</h3>
+                        <p>Easy on the eyes with a sleek dark interface.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔔</div>
+                        <h3>Notifications</h3>
+                        <p>Get notified when you receive new messages.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-specs">
+            <div class="container">
+                <h2 class="section-title">How I Built It</h2>
+                <div class="specs-grid">
+                    <div class="spec-category">
+                        <h3>Security</h3>
+                        <ul>
+                            <li>AES-256 encryption</li>
+                            <li>Secure key exchange</li>
+                            <li>No message logging</li>
+                            <li>Local data storage</li>
+                        </ul>
+                    </div>
+                    <div class="spec-category">
+                        <h3>Platforms</h3>
+                        <ul>
+                            <li>Windows</li>
+                            <li>macOS</li>
+                            <li>Linux</li>
+                            <li>Web version</li>
+                        </ul>
+                    </div>
+                    <div class="spec-category">
+                        <h3>Technologies</h3>
+                        <ul>
+                            <li>Electron</li>
+                            <li>Node.js</li>
+                            <li>WebSockets</li>
+                            <li>SQLite</li>
+                        </ul>
+                    </div>
+                    <div class="spec-category">
+                        <h3>Features</h3>
+                        <ul>
+                            <li>Low memory usage</li>
+                            <li>Fast messaging</li>
+                            <li>File transfers</li>
+                            <li>Offline sync</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="learning-section">
+            <div class="container">
+                <h2 class="section-title">What I Learned</h2>
+                <div class="learning-cards">
+                    <div class="learning-card">
+                        <div class="learning-number">01</div>
+                        <h3>Encryption</h3>
+                        <p>How to implement secure encryption and protect user data properly.</p>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-number">02</div>
+                        <h3>Real-time Communication</h3>
+                        <p>Working with WebSockets and handling real-time data synchronization.</p>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-number">03</div>
+                        <h3>Desktop Development</h3>
+                        <p>Building cross-platform desktop apps with Electron framework.</p>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-number">04</div>
+                        <h3>User Experience</h3>
+                        <p>Designing intuitive interfaces and smooth user interactions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="support">
+            <div class="container">
+                <h2 class="section-title">Support My Work</h2>
+                <p class="support-text">If you like this project and want to help me continue learning and building cool stuff, consider supporting me:</p>
+                <div class="donation-links">
+                    <a href="https://github.com/RDXFGXY1" target="_blank" class="donation-btn github">
+                        <span class="donation-icon">⭐</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://patreon.com/NullStudio001" target="_blank" class="donation-btn patreon">
+                        <span class="donation-icon">🎨</span>
+                        <span>Patreon</span>
+                    </a>
+                    <a href="https://opencollective.com/rdxfgxy1" target="_blank" class="donation-btn opencollective">
+                        <span class="donation-icon">🤝</span>
+                        <span>Open Collective</span>
+                    </a>
+                    <a href="https://liberapay.com/kyros" target="_blank" class="donation-btn liberapay">
+                        <span class="donation-icon">💝</span>
+                        <span>Liberapay</span>
+                    </a>
+                    <a href="https://paypal.me/ayoubzel" target="_blank" class="donation-btn paypal">
+                        <span class="donation-icon">💳</span>
+                        <span>PayPal</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="get-started">
+            <div class="container">
+                <h2>Want to Try It?</h2>
+                <p>Feel free to download and test it out. I'd love to hear your feedback!</p>
+                <div class="download-buttons">
+                    <a href="https://github.com/NullStudio-dev/blacklan-messenger/releases" target="_blank" class="btn btn-primary">Download</a>
+                    <a href="https://github.com/NullStudio-dev/blacklan-messenger" target="_blank" class="btn btn-secondary">Source Code</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>My Projects</h3>
+                    <p>Personal projects built for fun and learning under the NullStudio name.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="black-messenger.html">Black Messenger</a></li>
+                        <li><a href="https://github.com/RDXFGXY1" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="https://patreon.com/NullStudio001" target="_blank">Patreon</a></li>
+                        <li><a href="https://paypal.me/ayoubzel" target="_blank">PayPal</a></li>
+                        <li><a href="https://liberapay.com/kyrosiss" target="_blank">Liberapay</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Personal Projects. Made with ❤️ for fun and learning.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
