@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Auth - Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">Loading Project...</div>
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Loading...</div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>NullStudio | Discord Auth</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="black-messenger.html" class="nav-link">Black Messenger</a>
+                </li>
+                <li class="nav-item">
+                    <a href="discord-auth.html" class="nav-link active">Discord Auth</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://discord.gg/aFvUxKejw4" class="nav-link active">Join Discord </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Project Hero Section -->
+        <section class="project-hero">
+            <div class="container">
+                <div class="project-hero-content">
+                    <h1 class="project-title">Discord Auth</h1>
+                    <p class="project-subtitle">A full-stack Discord authentication system I'm building to learn about OAuth2 and bot development</p>
+                    <div class="project-badges">
+                        <span class="badge coming-soon-badge">Coming Soon</span>
+                        <span class="badge">Full-Stack</span>
+                        <span class="badge">Learning Project</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/NullStudio-dev/discord-auth" target="_blank" class="btn btn-secondary">View Repository</a>
+                        <a href="#features" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Overview -->
+        <section class="project-overview">
+            <div class="container">
+                <h2 class="section-title">About This Project</h2>
+                <div class="overview-content">
+                    <div class="overview-text">
+                        <p>I'm currently working on Discord Auth as my next learning project. It's a complete authentication system that integrates with Discord's OAuth2 API, plus a bot for server management.</p>
+                        <p>This project is helping me understand how OAuth2 works, how to build REST APIs, and how to create Discord bots. It's more complex than Black Messenger, but that's the point - I want to challenge myself!</p>
+                    </div>
+                    <div class="overview-stats">
+                        <div class="stat">
+                            <h3>Full-Stack</h3>
+                            <p>System</p>
+                        </div>
+                        <div class="stat">
+                            <h3>OAuth2</h3>
+                            <p>Integration</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Discord</h3>
+                            <p>Bot</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What It Will Do -->
+        <section id="features" class="project-features">
+            <div class="container">
+                <h2 class="section-title">What It Will Do</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔐</div>
+                        <h3>Discord OAuth2</h3>
+                        <p>Complete authentication system using Discord's OAuth2 API.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>Discord Bot</h3>
+                        <p>Modular bot with ticket system and admin commands.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌐</div>
+                        <h3>Web Frontend</h3>
+                        <p>Clean web interface for user authentication and management.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>REST API</h3>
+                        <p>Backend API for handling authentication and user data.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎫</div>
+                        <h3>Ticket System</h3>
+                        <p>Built-in support ticket management for Discord servers.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🐳</div>
+                        <h3>Docker Ready</h3>
+                        <p>Easy deployment with Docker containers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="tech-specs">
+            <div class="container">
+                <h2 class="section-title">Technologies I'm Using</h2>
+                <div class="specs-grid">
+                    <div class="spec-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js & Express</li>
+                            <li>Discord OAuth2</li>
+                            <li>MongoDB/JSON storage</li>
+                            <li>RESTful API design</li>
+                        </ul>
+                    </div>
+                    <div class="spec-category">
+                        <h3>Discord Bot</h3>
+                        <ul>
+                            <li>Discord.py</li>
+                            <li>SQLite database</li>
+                            <li>Modular cog system</li>
+                            <li>Admin permissions</li>
+                        </ul>
+                    </div>
+                    <div class="spec-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML/CSS/JavaScript</li>
+                            <li>Discord login flow</li>
+                            <li>User dashboard</li>
+                            <li>Responsive design</li>
+                        </ul>
+                    </div>
+                    <div class="spec-category">
+                        <h3>Deployment</h3>
+                        <ul>
+                            <li>Docker containers</li>
+                            <li>Docker Compose</li>
+                            <li>Environment configs</li>
+                            <li>Database persistence</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Development Progress -->
+        <section class="learning-section">
+            <div class="container">
+                <h2 class="section-title">Development Progress</h2>
+                <div class="learning-cards">
+                    <div class="learning-card">
+                        <div class="learning-number">01</div>
+                        <h3>Planning & Setup</h3>
+                        <p>Project structure, environment setup, and initial configurations.</p>
+                        <div class="progress-status completed">✓ Completed</div>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-number">02</div>
+                        <h3>Discord Bot</h3>
+                        <p>Building the modular bot with ticket system and admin commands.</p>
+                        <div class="progress-status in-progress">🔄 In Progress</div>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-number">03</div>
+                        <h3>OAuth2 Backend</h3>
+                        <p>Implementing Discord OAuth2 authentication and user management.</p>
+                        <div class="progress-status pending">⏳ Pending</div>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-number">04</div>
+                        <h3>Frontend & Testing</h3>
+                        <p>Web interface development and comprehensive testing.</p>
+                        <div class="progress-status pending">⏳ Pending</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What I'm Learning -->
+        <section class="mission">
+            <div class="container">
+                <h2 class="section-title">What I'm Learning</h2>
+                <div class="mission-content">
+                    <div class="mission-card">
+                        <div class="mission-icon">🔑</div>
+                        <h3>OAuth2 Flow</h3>
+                        <p>Understanding how OAuth2 authentication works and implementing it securely.</p>
+                    </div>
+                    <div class="mission-card">
+                        <div class="mission-icon">🏗️</div>
+                        <h3>Full-Stack Development</h3>
+                        <p>Building complete applications with frontend, backend, and database integration.</p>
+                    </div>
+                    <div class="mission-card">
+                        <div class="mission-icon">🤖</div>
+                        <h3>Discord Bot Development</h3>
+                        <p>Creating modular Discord bots with advanced features and permissions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Section -->
+        <section class="support">
+            <div class="container">
+                <h2 class="section-title">Support My Development</h2>
+                <p class="support-text">This project is taking a lot of time and effort to build. If you're excited about it and want to support my learning journey:</p>
+                <div class="donation-links">
+                    <a href="https://github.com/RDXFGXY1" target="_blank" class="donation-btn github">
+                        <span class="donation-icon">⭐</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://patreon.com/NullStudio001" target="_blank" class="donation-btn patreon">
+                        <span class="donation-icon">🎨</span>
+                        <span>Patreon</span>
+                    </a>
+                    <a href="https://opencollective.com/rdxfgxy1" target="_blank" class="donation-btn opencollective">
+                        <span class="donation-icon">🤝</span>
+                        <span>Open Collective</span>
+                    </a>
+                    <a href="https://liberapay.com/kyros" target="_blank" class="donation-btn liberapay">
+                        <span class="donation-icon">💝</span>
+                        <span>Liberapay</span>
+                    </a>
+                    <a href="https://paypal.me/ayoubzel" target="_blank" class="donation-btn paypal">
+                        <span class="donation-icon">💳</span>
+                        <span>PayPal</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stay Updated -->
+        <section class="get-started">
+            <div class="container">
+                <h2>Want Updates?</h2>
+                <p>Follow the repository to get notified when I release this project!</p>
+                <div class="download-buttons">
+                    <a href="https://github.com/NullStudio-dev/discord-auth" target="_blank" class="btn btn-primary">Follow on GitHub</a>
+                    <a href="index.html" class="btn btn-secondary">Back to Home</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>My Projects</h3>
+                    <p>Personal projects built for fun and learning under the NullStudio name.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="black-messenger.html">Black Messenger</a></li>
+                        <li><a href="discord-auth.html">Discord Auth</a></li>
+                        <li><a href="https://github.com/RDXFGXY1" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="https://patreon.com/NullStudio001" target="_blank">Patreon</a></li>
+                        <li><a href="https://paypal.me/ayoubzel" target="_blank">PayPal</a></li>
+                        <li><a href="https://liberapay.com/kyrosiss" target="_blank">Liberapay</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Personal Projects. Made with ❤️ for fun and learning.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
